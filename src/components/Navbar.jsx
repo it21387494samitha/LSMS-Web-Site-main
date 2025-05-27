@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from '../assets/logo.png';
+import Logo from '../assets/Logo.png';
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 
