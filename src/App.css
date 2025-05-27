@@ -1,0 +1,17 @@
+.animate-marquee{
+    animation: marquee 25s linear infinite;
+}
+
+.hero-gradient-bg {
+  background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+}
+
+
+@keyframes marquee {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
