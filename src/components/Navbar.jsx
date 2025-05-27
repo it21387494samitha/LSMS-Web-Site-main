@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from '../assets/Logo.png';
+
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 
@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="w-full container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 md:h-20 h-16">
                 {/* logo */}
                 <div className="flex items-center gap-1 cursor-pointer">
-                    <img src={Logo} alt="Logo" className="h-14 w-auto" />
+                    
                 </div>
 
                 {/* mobile menu button */}
